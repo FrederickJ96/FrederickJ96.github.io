@@ -1,7 +1,13 @@
+
 h1 {
   text-align: center;
   font-family: "julius sans one";
   padding-top: 2em;
+}
+@media screen and (max-width:991) {
+  h1 {
+    padding-top: 0;
+  }
 }
 .botmargin {
   margin-bottom: 1em
