@@ -4,11 +4,6 @@ h1 {
   font-family: "julius sans one";
   padding-top: 2em;
 }
-@media screen and (max-width:991) {
-  h1 {
-    padding-top: 0;
-  }
-}
 .botmargin {
   margin-bottom: 1em
 }
@@ -23,7 +18,7 @@ h1 {
   padding-bottom: 0;
 }
 .emtoppad {
-  padding=top: 1em;
+  padding-top: 1em;
 }
 .dbltoppad {
   padding-top: 2em;
@@ -34,6 +29,9 @@ h1 {
 .blackpad {
   background-color: black;
   padding-top: 15px;
+}
+.alnctr {
+  text-align: center;
 }
 .eeebackground {
   background-color: #eee;
