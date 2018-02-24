@@ -2,7 +2,17 @@
 h1 {
   text-align: center;
   font-family: "julius sans one";
-  padding-top: 2em;
+}
+@media screen and (min-width: 992px) {
+  .headtoppad {
+    padding-top: 2em;
+  }
+}
+.greybg {
+  background-color: #eee;
+}
+.padbot15 {
+  padding-bottom: 15px;
 }
 .botmargin {
   margin-bottom: 1em
@@ -49,6 +59,9 @@ h1 {
 .captiontxt {
   font-family: "Roboto";
   text-align: center;
+}
+.twoem {
+  font-size: 2em;
 }
 .heroimgtxt {
 vertical-align: baseline;
